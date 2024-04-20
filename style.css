@@ -587,7 +587,7 @@ footer .btn .fa{
 #signup>div{
     width: fit-content;
     box-shadow: 0 0 20px var(--second-color);
-    height:100%;
+    height:100vh;
 }
 #signup .overlay{
     display: flex;
