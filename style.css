@@ -512,6 +512,13 @@ footer .btn .fa{
     margin-bottom: 30px;
     padding: 10px;
 }
+ .box input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: var(--white-color);
+}
  .box label{
     position: absolute;
     top: 50%;
@@ -526,6 +533,7 @@ footer .btn .fa{
     height: fit-content;
     padding: 7px;
     font-size: 1rem;
+
 }
  .box .icon{
     position: absolute;
@@ -533,15 +541,6 @@ footer .btn .fa{
 }
  .box .icon .fa{
     color: var(--light-background);
-}
- .box input{
-    width: 100%;
-    border: 0;
-    outline: 0;
-    background: transparent;
-    color: var(--white-color);
-    padding-left:10px;
-    padding-right:20px;
 }
 #forgotpassword a , #signup a{
     display: block;
@@ -585,9 +584,9 @@ footer .btn .fa{
     height:100vh;
 }
 #signup>div{
+    height: fit-content;
     width: fit-content;
     box-shadow: 0 0 20px var(--second-color);
-    height:100vh;
 }
 #signup .overlay{
     display: flex;
@@ -633,17 +632,11 @@ footer .btn .fa{
         top: 0;
     }
     #signup>div{
-        width: 70%;
+        width:70%;
     }
-     .box input{
-    width: 100%;
-    border: 0;
-    outline: 0;
-    background: transparent;
-    color: var(--white-color);
-    padding-left:10px;
-    padding-right:15px;
-}
+    #signup{
+        height: fit-content;
+    }
 }
 @media screen and (max-width: 1025px) {
     #contactme form .flex1{
