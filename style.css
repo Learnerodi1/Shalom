@@ -510,7 +510,6 @@ footer .btn .fa{
     border-bottom: 2px solid var(--white-color);
     position: relative;
     margin-bottom: 30px;
-    padding: 10px;
 }
  .box input{
     width: 100%;
@@ -518,6 +517,7 @@ footer .btn .fa{
     outline: 0;
     background: transparent;
     color: var(--white-color);
+    padding:10px;
 }
  .box label{
     position: absolute;
