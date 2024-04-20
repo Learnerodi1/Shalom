@@ -634,7 +634,7 @@ footer .btn .fa{
     #signup>div{
         width:70%;
     }
-    #signup{
+    #signup , #Login{
         height: fit-content;
     }
 }
