@@ -919,13 +919,13 @@ footer .btn .fa{
         height: 30px;
     }
     header nav ul li a .fa , header nav ul li a , header nav ul li .btn{
-        font-size: .8rem;
+        font-size: 1rem;
     }
     #about .img{
         height: 30vh;
     }
     header h3{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     #slogan p{
         font-size: .7rem;
